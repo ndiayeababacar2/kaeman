@@ -1,0 +1,293 @@
+
+/* Classes for Web pages  */
+
+.banner { 
+	color: #e3dad3;
+	background-color: #45240b;
+	text-align: center;
+	text-decoration: bold;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	height: 40px;
+}
+
+
+.navbarbgcolor { 
+	            background-color: black;
+	            margin-top: 0px;
+}
+
+.cart-account { 
+	          margin-top: 30px;
+	          margin-bottom: 20px;
+	          margin-right: 20px;
+}
+
+.pictureborder { 
+               border-style: solid;
+               border-color: #45240b;
+ }
+
+.picturemargin {
+	           margin-left: 35px;
+	           margin-top: -70px;
+}
+
+.picturefloat {
+                float: right;
+                margin-top: -400px;
+                margin-right: 100px;
+}
+
+.accountsidepicture {  
+	                background-image: url(images/account/outside.jpg);
+	                background-repeat:no-repeat;
+	                background-position: center;
+	                background-size: 100%;
+	                margin-left: -300px;
+	                margin-top: 50px;
+	                height: 350px;
+	                width: 450px;
+}
+
+.whitebackground {
+	             background-color: white;
+}
+
+
+.bk {
+	color:black;
+}
+
+
+.footermenu { 
+	         margin-top: 40px;
+	         margin-left:-10px;     
+}
+
+.footerlogo {
+	         margin-top: 10px;
+	         margin-left:-70px;
+ }
+
+.socialmedia {
+	       margin-top: -25px;
+	       margin-left: -25px;       
+}
+
+.copyright {
+	       margin-top: 0px;
+	       margin-left: 25px;    
+}
+
+
+
+/* CSS for navigation bar */
+
+nav { 
+	 margin-top: 10px;
+	 margin-bottom: 10px; 
+ }
+
+
+nav li a { 
+	       font-size: 20px;
+	       font-family: arial;
+	       margin-right:  30px;
+}
+
+
+li a:hover {
+            background-color: #9c602c;
+            text-decoration: none;
+}
+
+
+/* CSS for Main Page */
+
+
+body {
+	  overflow-y: scroll;
+	  overflow-x: hidden;
+	  box-sizing: content-box;
+}
+
+
+
+header {
+	    background-color: black;
+}
+
+
+p {
+    color:black;
+    padding-left:20px;
+    padding-top: 0px;
+    padding-bottom: 20px;
+    text-align: justify;
+}
+
+main {
+      background-color: #45240b;
+      padding-top: 10px;
+      padding-bottom: 20px;
+}
+
+
+ul li {
+	  list-style-type:none;
+	  font-family: arial;
+	  font-size: 20px;
+	  color: white;
+	  margin-top: 20px;
+}
+
+
+hr { 
+    background-color: #706f6c; 
+    border-style: solid;
+    margin-top: 5px;
+    margin-right:50px;
+    margin-left: 0px;
+}
+
+
+h3 {
+	color: white;
+	font-style: bold;
+	font-size: 50px;
+	font-family: arial;
+	margin-left: 700px;
+	margin-right: auto;
+}
+
+
+h4 {
+   margin-left: 20px;
+   margin-bottom: 15px;
+}
+
+h6 {
+	color: black;
+	font-size: 35px;
+	font-style: bold;
+	font-family: arial;
+	padding-left:20px;
+	margin-left: 35px;
+	margin-top: 20px;
+}
+
+a {
+  text-decoration: none;
+  color:white;
+   font-family: arial;
+  margin-left: 15px;
+}
+
+a:hover {
+         text-decoration: none;
+         color:#706f6c;
+}
+
+
+iframe {
+	    margin-left: 35px;
+}
+
+label {
+      color: white;
+
+}
+
+span { 
+	 color: red;
+ }
+
+
+footer {
+	    background-color: black;
+	    color: #706f6c;
+	    width: 100%;
+	   padding-left: 50px;
+}
+
+footer a {
+  text-decoration: none;
+  color:#706f6c;
+  font-size: 20px;
+  font-family: arial;
+  margin-left: 15px;
+}
+
+
+footer a:hover {
+  text-decoration: none;
+  color:white;
+}
+
+figure { 
+	color: black;
+}
+
+
+
+small {
+	    text-align: center;
+}
+
+
+
+ /* CSS for Contact Forms */
+
+label{
+	color: black;
+	font-style: bold;
+	padding-left:40px;
+	margin-top: 0px;
+	margin-left: 30px;
+}
+
+input{
+
+	margin-bottom: 1em;
+	 display: block;
+	 border-radius: 8px;
+	 width:35%;
+	 padding: 12px 20px;
+	 border: solid 2px black;
+	 margin-left: 60px;
+}
+
+textarea {
+	 margin-bottom: 1em;
+	 display: block;
+	 border-radius: 8px;
+	 width: 40%;
+	 height: 20%;
+	 padding: 12px 20px;
+	 border: solid 2px black;
+	 margin-left: 60px;
+}
+
+#mySubmit {
+	margin-top: 1em;
+	margin-left: 60px;
+	display: inline;
+	background-color: black;
+	color: white;
+	text-align: center;
+	width: 10%; 
+	height: 50px;
+}
+
+
+#myReset {
+	margin-top: 1em;
+	margin-left: 10px;
+	display: inline;
+	background-color: black;
+	color: white;
+	text-align: center;
+	width: 10%; 
+	height: 50px;
+}
